@@ -1,0 +1,20 @@
+{
+  "name": "txe-tx-executor",
+  "version": "0.0.1",
+  "description": "microservice for new creating and sending out transactions",
+  "main": "index.js",
+  "scripts": {
+    "watch": "./node_modules/.bin/nodemon index.js  --legacy-watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {},
+  "author": "Blockchain Consulting GmbH",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "standard": "^11.0.1"
+  }
+}
