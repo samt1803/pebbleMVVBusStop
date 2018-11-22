@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:10
+FROM arm32v7/node
 
 WORKDIR /app
 COPY . .
